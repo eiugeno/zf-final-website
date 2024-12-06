@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #222;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    color: #00b4d8;
+}
+
+.hero {
+    position: relative;
+    color: #fff;
+    text-align: left;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translateY(-50%);
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #00b4d8;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.intro, .highlights, .content {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.intro h2, .content h2 {
+    margin-bottom: 20px;
+}
+
+.highlight {
+    margin-bottom: 20px;
+}
+
+.page-banner {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.page-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.page-banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.logo-container a {
+    display: inline-block;
+}
